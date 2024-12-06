@@ -1,0 +1,9 @@
+cabal-version:      3.4
+name:               cabal-sdist
+version:            0.1.0.0
+build-type:         Simple
+extra-source-files:
+    test/data/**/*.hs
+    test/data/**/*.cabal
+
+library
